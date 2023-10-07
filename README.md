@@ -27,4 +27,4 @@ chezscheme --script src/joytrain.scm > joytrain.joy
   * randomly apply axioms N times
   * normalize
   * randomly apply axioms once
-* Doesn't work with the [original Joy interpreter](https://github.com/Wodan58/Joy) becouse it crashes with segfault for some reason.
+* Doesn't work with the [original Joy interpreter](https://github.com/Wodan58/Joy) because it crashes with segfault for some reason.

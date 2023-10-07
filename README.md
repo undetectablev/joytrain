@@ -2,7 +2,7 @@
 
 JoyTrain is a pseudorandom algebraic multiquine relay written in a subset of [Joy](https://www.kevinalbrecht.com/code/joy-mirror/joy.html) programming language by [Manfred von Thun](http://fogus.me/important/von-thun/). It works by specializing a probabilistic pattern matcher with a non-confluent TRS and applying the residual program to itself. All ad-hoc specialization and interpretation is done in [Chez Scheme](https://cisco.github.io/ChezScheme/).
 
-## How to run:
+## How to run (takes a few seconds):
 
 ```
 chezscheme --script joy.scm joytrain.joy > 1.joy

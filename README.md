@@ -24,7 +24,7 @@ chezscheme --script src/joytrain.scm > joytrain.joy
 * Strings `"..."` are intensional. They are used with the `intern` combinator as patterns to avoid their further overwriting.
 * No type checking is implemented, so no axioms like `id == swap swap` are used.
 * Strategy is the dumbest possible:
-  1. randomly apply axioms N times
-  2. normalize
-  3. randomly apply axioms once
+  * randomly apply axioms N times
+  * normalize
+  * randomly apply axioms once
 * Doesn't work with the [original Joy interpreter](https://github.com/Wodan58/Joy) becouse it crashes with segfault for some reason.
